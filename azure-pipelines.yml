@@ -23,7 +23,7 @@ steps:
 
 - task: SonarCloudPrepare@3
   inputs:
-    SonarCloud: 'SonarCloud1'
+    SonarCloud: 'SonarCubeCloud'
     organization: 'irad0511'
     scannerMode: 'MSBuild'
     projectKey: 's540451423'
